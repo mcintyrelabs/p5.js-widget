@@ -70,7 +70,7 @@
 	    loadNextScript();
 	}
 	function p5url(version) {
-	    return "//cdnjs.cloudflare.com/ajax/libs/p5.js/" + version + "/p5.js";
+	    return "https://cdnjs.cloudflare.com/ajax/libs/p5.js/" + version + "/p5.js";
 	}
 	function LoopChecker(sketch, funcName, maxRunTime) {
 	    var self = {
